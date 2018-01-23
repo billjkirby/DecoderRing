@@ -3,7 +3,7 @@ public class EncodeDecode {
     
         try {
             System.out.println("Please Enter 'E' for Encode, 'D' for Decode: ");
-            string doWhat = bufRead.readLine();
+            String doWhat = bufRead.readLine();
         }
         catch (IOException err) {
             System.out.println("Error reading line");

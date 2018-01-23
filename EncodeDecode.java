@@ -14,6 +14,7 @@ public class EncodeDecode {
                        break;
             case 'D':  doWhatString = "Decode";
                        break;
+        }
         
         System.out.println( "You want to " + doWhatString + "!" );
         System.exit( 0 ); //success

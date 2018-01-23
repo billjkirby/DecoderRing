@@ -1,7 +1,7 @@
 import java.io.* ;
 
 public class EncodeDecode {
-    public static void main( String[] args ) {
+    public static void main( String args[] ) {
         
         InputStreamReader istream = new InputStreamReader(System.in) ;
         BufferedReader bufRead = new BufferedReader(istream) ;
